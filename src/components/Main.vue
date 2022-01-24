@@ -129,25 +129,108 @@
             <h5> read our blog <i class="fas fa-long-arrow-alt-right"></i></h5>
         </div>
     </div>
-    <div class="container-70">
-        <div class="forum-title text-center pt-5">
-            <h6 class="text-uppercase font-monospace">phasellus eget metus</h6>
-            <h3 class="fw-bold">Forum Sections</h3>
-        </div>
-        <div class="forum-cards mt-4">
-            <div class="row row-cols-4">
-                <div class="col">
-                    <div class="card-container">
-                        <div class="icon-cont text-center">
-                            <i class="far fa-file-alt"></i>
+    <div class="forum-section">
+        <div class="container-70">
+            <div class="forum-title text-center pt-5">
+                <h6 class="text-uppercase font-monospace">phasellus eget metus</h6>
+                <h3 class="fw-bold">Forum Sections</h3>
+            </div>
+            <div class="forum-cards mt-4">
+                <div class="row row-cols-4">
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="far fa-file-alt"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>News &amp; Community</h6>
+                            </div>
                         </div>
-                        <div class="card-text text-center">
-                            <h6>News &amp; Community</h6>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Apple Forum</h6>
+                            </div>
                         </div>
-
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fab fa-windows"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Microsoft Forum</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Android Forum</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>General Discussion</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fas fa-cubes"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Apps &amp; Software</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Gadget &amp; Stuff</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-container mb-4">
+                            <div class="icon-cont text-center">
+                                <i class="fas fa-wrench"></i>
+                            </div>
+                            <div class="card-text text-center">
+                                <h6>Tutorials &amp; Guides</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="blog text-uppercase text-light text-center">
+        <div class="blog-text">
+            <h5> go to our forum <i class="fas fa-long-arrow-alt-right"></i></h5>
+        </div>
+    </div>
+    <div class="community">
+        <div class="container-50 community-text text-center">
+            <h3>Hey! Join to our Community</h3>
+            <p>Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat vulputate purus ipsum dolores ficilis uns etra</p>
+            <button type="button" class="btn btn-primary">SIGN UP > </button>
         </div>
     </div>
 </main>
@@ -221,10 +304,33 @@ export default {
     content:"";
 }
 
+.forum-section {
+    background-color: $silverChalice;
+}
 .card-container {
     background-color: $colorWhite;
     width: 200px;
     height: 200px;
     border-top: 2px solid #27aabe;
+}
+
+.community {
+    position: relative;
+    background-image: url(../assets/img/join_now_cta_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 400px;  
+    color: $colorWhite;
+    .community-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .btn-primary {
+            background-color: $headerBgColor;
+            border-color: $headerBgColor;  
+        }
+    }    
 }
 </style>

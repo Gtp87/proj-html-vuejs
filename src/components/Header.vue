@@ -55,6 +55,7 @@ header {
     background-color: $headerBgColor;
     .logo {
     padding: 0.6em;
+    cursor: pointer;
     }
     li {
         display: inline-block;

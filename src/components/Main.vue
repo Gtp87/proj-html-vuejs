@@ -236,9 +236,9 @@
     <div class="subscribe">
         <div class="text-center">
             <h4>Subscribe to our Newsletter</h4>
-            <div class="search-container">
-                    <input placeholder="Insert your email*" type="text">
-                    <button class="btn btn-dark ms-3" type="submit">SEND</button>
+            <div class="search-container w-100 mt-4">
+                    <input class="w-25" placeholder="Insert your email*" type="text">
+                    <button class="btn btn-dark ms-3 w-10" type="submit">SEND</button>
                 </div>
         </div>
     </div>
@@ -397,5 +397,10 @@ export default {
     background-color: $silverChalice;
     height: 200px;
     padding: 5em 0;
+    input {
+        padding: 0.4em;
+        outline: none;
+        border: none;
+    }
 }
 </style>

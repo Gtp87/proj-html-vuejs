@@ -1,7 +1,7 @@
 <template>
 <header>
     <div class="container-70">
-        <div class="row nav-menu">
+        <div class="row">
             <div class="col-12 d-flex justify-content-between">
                 <div class="logo">
                     <img src="../assets/img/logo.png" alt="logo">
@@ -54,13 +54,14 @@ header {
     color: white;
     background-color: $headerBgColor;
     .logo {
-        padding: 0.6em;
+    padding: 0.6em;
     }
     li {
         display: inline-block;
         margin: 0 1em;
         cursor: pointer;
     }
+    
     .jumbo-container-top {
         background-image: url(../assets/img/home_slider_bg.jpg);
         background-position: center;

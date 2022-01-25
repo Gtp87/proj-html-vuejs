@@ -149,7 +149,7 @@
                                 <i class="far fa-file-alt"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>News &amp; Community</h6>
+                                <h6 class="fs-6">News &amp; Community</h6>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                                 <i class="fab fa-apple"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Apple Forum</h6>
+                                <h6 class="fs-6">Apple Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                                 <i class="fab fa-windows"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Microsoft Forum</h6>
+                                <h6 class="fs-6">Microsoft Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                                 <i class="fab fa-android"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Android Forum</h6>
+                                <h6 class="fs-6">Android Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                                 <i class="fas fa-coffee"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>General Discussion</h6>
+                                <h6 class="fs-6">General Discussion</h6>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                                 <i class="fas fa-cubes"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Apps &amp; Software</h6>
+                                <h6 class="fs-6">Apps &amp; Software</h6>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                                 <i class="fas fa-laptop"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Gadget &amp; Stuff</h6>
+                                <h6 class="fs-6">Gadget &amp; Stuff</h6>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 <i class="fas fa-wrench"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6>Tutorials &amp; Guides</h6>
+                                <h6 class="fs-6">Tutorials &amp; Guides</h6>
                             </div>
                         </div>
                     </div>

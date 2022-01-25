@@ -143,7 +143,7 @@
             </div>
             <div class="forum-cards mt-4">
                 <div class="row row-cols-4">
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="far fa-file-alt"></i>
@@ -153,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fab fa-apple"></i>
@@ -163,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fab fa-windows"></i>
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fab fa-android"></i>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fas fa-coffee"></i>
@@ -193,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fas fa-cubes"></i>
@@ -203,7 +203,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fas fa-laptop"></i>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="fas fa-wrench"></i>

@@ -96,7 +96,9 @@
                 </div>
                 <div class="row pb-2">
                     <div class="col-6">
-                        <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
+                        <div class="img-container">
+                            <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col-6 news-article">
                         <div class="news-title">Donec ornare pretium eget scelisque justo</div>
@@ -105,7 +107,9 @@
                 </div>
                 <div class="row pb-2">
                     <div class="col-6">
-                        <img src="../assets/img/post_feat_img_22-147x118.jpg" alt="">
+                        <div class="img-container">
+                            <img src="../assets/img/post_feat_img_22-147x118.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col-6 news-article">
                         <div class="news-title">Fusce sollicitudin nunc sed placerat varius</div>
@@ -114,7 +118,9 @@
                 </div>
                 <div class="row pb-2">
                     <div class="col-6">
-                        <img src="../assets/img/post_feat_img_20-147x118.jpg" alt="">
+                        <div class="img-container">
+                            <img src="../assets/img/post_feat_img_20-147x118.jpg" alt="">
+                        </div>
                     </div>
                     <div class="col-6 news-article">
                         <div class="news-title">Proin eu purus sed aru aliquet curabir vens</div>
@@ -268,6 +274,12 @@ export default {
     content:"";
 }
 
+.img-container {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
 .news-title {
     font-size: 0.9em;
     font-weight: bold;
@@ -302,6 +314,7 @@ export default {
 
 .reviewed-product {
     background-image: url(../assets/img/featured_article_2_bg.jpg);
+    height: 58vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -330,6 +343,7 @@ export default {
     background-color: $sharkBlack;
     height: 100px;
     position: relative;
+    margin-top: 10em;
     .blog-text {
     position: absolute;
     top: 50%;

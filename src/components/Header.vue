@@ -14,7 +14,7 @@
                         <li>Android</li>
                         <li>Forums</li>
                         <li>Contact us</li>
-                        <li><button type="button" class="btn btn-dark">JOIN US</button></li>
+                        <li><button type="button" class="my_btn btn btn-dark">JOIN US</button></li>
                         <li><i class="fas fa-search"></i></li>
                     </ul>
                 </div>
@@ -61,6 +61,10 @@ header {
         display: inline-block;
         margin: 0 1em;
         cursor: pointer;
+        .my_btn {
+            width: 100px;
+            padding: 0.5em;
+        }
     }
     
     .jumbo-container-top {

@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4 mb-4">
+        <div class="row review mt-4 mb-4 pt-4">
             <div class="col-8">
                 <div class="reviewed-product mt-2">
                     <div class="reviewed-product-text text-light">
@@ -135,7 +135,7 @@
             <h5> read our blog <i class="fas fa-long-arrow-alt-right"></i></h5>
         </div>
     </div>
-    <div class="forum-section pb-5">
+    <div class="forum-section">
         <div class="container-70">
             <div class="forum-title text-center pt-5 pb-5">
                 <h6 class="text-uppercase font-monospace">phasellus eget metus</h6>
@@ -149,7 +149,7 @@
                                 <i class="far fa-file-alt"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">News &amp; Community</h6>
+                                <h6>News &amp; Community</h6>
                             </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                                 <i class="fab fa-apple"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Apple Forum</h6>
+                                <h6>Apple Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                                 <i class="fab fa-windows"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Microsoft Forum</h6>
+                                <h6>Microsoft Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                                 <i class="fab fa-android"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Android Forum</h6>
+                                <h6>Android Forum</h6>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                                 <i class="fas fa-coffee"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">General Discussion</h6>
+                                <h6>General Discussion</h6>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                                 <i class="fas fa-cubes"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Apps &amp; Software</h6>
+                                <h6>Apps &amp; Software</h6>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                                 <i class="fas fa-laptop"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Gadget &amp; Stuff</h6>
+                                <h6>Gadget &amp; Stuff</h6>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 <i class="fas fa-wrench"></i>
                             </div>
                             <div class="card-text text-center mt-3">
-                                <h6 class="fs-6">Tutorials &amp; Guides</h6>
+                                <h6>Tutorials &amp; Guides</h6>
                             </div>
                         </div>
                     </div>
@@ -242,7 +242,7 @@
     <div class="subscribe">
         <div class="text-center">
             <h4>Subscribe to our Newsletter</h4>
-            <div class="search-container w-100 mt-4">
+            <div class="search-container w-100 mt-4 pt-3">
                     <input class="w-25" placeholder="Insert your email*" type="text">
                     <button class="btn btn-dark ms-3 w-10" type="submit">SEND</button>
                 </div>
@@ -312,24 +312,28 @@ export default {
 
 }
 
-.reviewed-product {
-    background-image: url(../assets/img/featured_article_2_bg.jpg);
-    height: 58vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    .reviewed-product-text {
-        padding: 20% 10% 10% 5%;
-        h6 {
-            font-size: 0.8em;
-            font-weight: bold;
-        }
-        .btn-dark {
-        background-color: $sharkBlack;
-        border-color: $sharkBlack; 
+.review {
+    padding-bottom: 8em;
+    .reviewed-product {
+        background-image: url(../assets/img/featured_article_2_bg.jpg);
+        height: 58vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .reviewed-product-text {
+            padding: 20% 10% 10% 5%;
+            h6 {
+                font-size: 0.8em;
+                font-weight: bold;
+            }
+            .btn-dark {
+            background-color: $sharkBlack;
+            border-color: $sharkBlack; 
+            }
         }
     }
 }
+
 
 .tutorials::after {
     height: 3px;
@@ -343,7 +347,6 @@ export default {
     background-color: $sharkBlack;
     height: 100px;
     position: relative;
-    margin-top: 10em;
     .blog-text {
     position: absolute;
     top: 50%;
@@ -364,6 +367,7 @@ export default {
 
 .forum-section {
     background-color: $silverChalice;
+    padding-bottom: 8em;
     h6 {
     font-size: 0.8em;
     font-weight: bold;
@@ -410,7 +414,8 @@ export default {
 .subscribe {
     background-color: $silverChalice;
     height: 200px;
-    padding: 5em 0;
+    padding-top: 8em;
+    padding-bottom: 15em;
     input {
         padding: 0.4em;
         outline: none;

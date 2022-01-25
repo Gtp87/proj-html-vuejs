@@ -401,8 +401,8 @@ export default {
         left: 50%;
         transform: translate(-50%, -50%);
         .btn-primary {
-            background-color: $headerBgColor;
-            border-color: $headerBgColor;  
+            background-color: $colorMalibu;
+            border-color: $colorMalibu;  
         }
     }    
 }

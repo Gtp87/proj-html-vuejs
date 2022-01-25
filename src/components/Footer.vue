@@ -111,7 +111,7 @@ export default {
 }
 
 .link:hover {
-    color: $headerBgColor;
+    color: $colorMalibu;
 }
 
 .forum-text,
@@ -150,7 +150,7 @@ export default {
         background-color: $colorUltramarine;
     }
     .twitter {
-        background-color: $headerBgColor;
+        background-color: $colorMalibu;
     }
     .instagram {
         background-color: $royalBlue;

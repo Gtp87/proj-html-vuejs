@@ -52,7 +52,7 @@ export default {
 
 header {
     color: white;
-    background-color: $headerBgColor;
+    background-color: $colorMalibu;
     .logo {
     padding: 0.6em;
     cursor: pointer;
@@ -76,8 +76,8 @@ header {
             padding-top: 20%;
             padding-bottom: 20%;
             .btn-primary {
-            background-color: $headerBgColor;
-            border-color: $headerBgColor;  
+            background-color: $colorMalibu;
+            border-color: $colorMalibu;  
             }
         }
     }

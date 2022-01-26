@@ -1,25 +1,7 @@
 <template>
 <header>
     <div class="container-70">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-between">
-                <div class="logo">
-                    <img src="../assets/img/logo.png" alt="logo">
-                </div>
-                <div class="d-flex align-items-center">
-                    <ul class="list-unstyled mt-3">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Apple</a></li>
-                        <li><a href="#">Microsoft</a></li>
-                        <li><a href="#">Android</a></li>
-                        <li><a href="#">Forums</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><button type="button" class="my_btn btn btn-dark">JOIN US</button></li>
-                        <li><i class="fas fa-search"></i></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <NavbarHeader />
     </div>
         <div class="jumbo-container-top">
             <div class="container-70">
@@ -42,8 +24,12 @@
 </template>
 
 <script>
+import NavbarHeader from './NavbarHeader.vue';
 export default {
-    name: 'Header'
+    name: 'Header',
+    components: {
+        NavbarHeader,
+    },
 }
 </script>
 
@@ -68,6 +54,9 @@ header {
         a {
             text-decoration: none;
             color: $colorWhite;
+            &:hover {
+                color: $colorWhite;
+            }
         }
     }
     

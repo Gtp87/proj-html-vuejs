@@ -1,60 +1,6 @@
 <template>
 <footer>
-    <div class="container-70">
-        <div class="footer-top mt-5">
-            <div class="row row-cols-4">
-                <div class="col">
-                    <h6 class="text-uppercase fw-bold mb-4">avada tech forum</h6>
-                    <p class="forum-text pt-2">Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum</p>
-                </div>
-                <div class="col">
-                    <h6 class="text-uppercase fw-bold mb-4">popular topics</h6>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Nam a dolor voluptat massa auctor semper</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Sed euismod nunc urna fermentum arcu dapibus fringilla</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Cras lacinia tellus id mauris finibus lacus molestie</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Curabitur a scelerisque ligula</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <h6 class="text-uppercase fw-bold mb-4">recent topics</h6>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Cras lacinia tellus id mauris finibus lacus molestie</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Proin at ligula sagittis vestibulum nisi vitae</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Sed nec metus at est tincidunt elementum</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Nulla egestas nulla eu nulla suscipit molestie</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <h6 class="text-uppercase fw-bold mb-4">latest replies</h6>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Cras lacinia tellus id mauris finibus lacus molestie</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Cras lacinia tellus id mauris finibus lacus molestie</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Nulla egestas nulla eu nulla suscipit molestie</p>
-                    </div>
-                    <div class="link pt-2 d-flex">
-                        <span><i class="fas fa-chevron-right me-1"></i></span><p>Mauris ac nibh quis eros sagittis lacinia a et dui</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <FooterTop />
     <div class="bottom mt-5">
         <div class="container-70">
             <div class="footer-bottom mt-3">
@@ -95,9 +41,12 @@
 </template>
 
 <script>
+import FooterTop from './FooterTop.vue';
 export default {
-    name: "Footer"
-
+    name: "Footer",
+    components: {
+        FooterTop,
+    },
 }
 </script>
 
@@ -108,10 +57,9 @@ export default {
     border-bottom: 2px solid $silverChalice;
     font-weight: bold;
     cursor: pointer;
-}
-
-.link:hover {
+    &:hover {
     color: $colorMalibu;
+    }
 }
 
 .forum-text,

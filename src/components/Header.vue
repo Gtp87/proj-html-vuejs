@@ -8,12 +8,12 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <ul class="list-unstyled mt-3">
-                        <li>Home</li>
-                        <li>Apple</li>
-                        <li>Microsoft</li>
-                        <li>Android</li>
-                        <li>Forums</li>
-                        <li>Contact us</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Apple</a></li>
+                        <li><a href="#">Microsoft</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Contact us</a></li>
                         <li><button type="button" class="my_btn btn btn-dark">JOIN US</button></li>
                         <li><i class="fas fa-search"></i></li>
                     </ul>
@@ -64,6 +64,10 @@ header {
         .my_btn {
             width: 100px;
             padding: 0.5em;
+        }
+        a {
+            text-decoration: none;
+            color: $colorWhite;
         }
     }
     

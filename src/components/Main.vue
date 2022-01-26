@@ -142,8 +142,9 @@
                 <h3 class="fw-bold pb-4">Forum Sections</h3>
             </div>
             <div class="forum-cards mt-4">
-                <div class="row row-cols-4">
-                    <div class="col d-flex justify-content-center">
+                <ForumCards />
+                <!-- <div class="row row-cols-4"> -->
+                    <!-- <div class="col d-flex justify-content-center">
                         <div class="card-container d-flex flex-column justify-content-center mb-4">
                             <div class="icon-cont text-center">
                                 <i class="far fa-file-alt"></i>
@@ -222,8 +223,8 @@
                                 <h6 class="fs-6">Tutorials &amp; Guides</h6>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                <!-- </div> -->
             </div>
         </div>
     </div>
@@ -252,8 +253,12 @@
 </template>
 
 <script>
+import ForumCards from './ForumCards.vue'
 export default {
-    name: "Main"
+    name: "Main",
+    components: {
+        ForumCards,
+    }
 
 }
 </script>

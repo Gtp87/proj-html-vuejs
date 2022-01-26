@@ -23,35 +23,35 @@ export default {
             cardItems: [
                 {
                     class: 'far fa-file-alt',
-                    text: 'News & Community'
+                    text: 'News & Community',
                 },
                 {
                     class: 'fab fa-apple',
-                    text: 'Apple Forum'
+                    text: 'Apple Forum',
                 },
                 {
                     class: 'fab fa-windows',
-                    text: 'Microsoft Forum'
+                    text: 'Microsoft Forum',
                 },
                 {
                     class: 'fab fa-android',
-                    text: 'Android Forum'
+                    text: 'Android Forum',
                 },
                 {
                     class: 'fas fa-coffee',
-                    text: 'General Discussion'
+                    text: 'General Discussion',
                 },
                 {
                     class: 'fas fa-cubes',
-                    text: 'Apps & Software'
+                    text: 'Apps & Software',
                 },
                 {
                     class: 'fas fa-laptop',
-                    text: 'Gadget & Stuff'
+                    text: 'Gadget & Stuff',
                 },
                 {
                     class: 'fas fa-wrench',
-                    text: 'Tutorial & Guides'
+                    text: 'Tutorial & Guides',
                 }
             ]
         }

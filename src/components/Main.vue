@@ -7,38 +7,7 @@
         </div>
     </div>
     <div class="container-70">
-        <div class="row row-cols-3 mt-5">
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_25-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Morbi vitae dui euismod vulputate sollicitudin</div>
-                    <div class="news-date">October 11th, 2015 |<span class="fw-bold"> 2 Comments</span></div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_24-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Vivamus pellenteque, felis quis varius</div>
-                    <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_23-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Donec ornare pretium eget scelisque justo</div>
-                    <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-        </div>
+        <CardNews />
         <div class="featured-article mt-5">
             <div class="feat-article-text text-light">
                 <h6 class="text-uppercase font-monospace">featured article</h6>
@@ -47,38 +16,7 @@
                 <button type="button" class="btn btn-dark">READ MORE ></button>
             </div>
         </div>
-        <div class="row row-cols-3 mt-5">
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_22-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Fusce sollicitudibne nunc sed placerat varius</div>
-                    <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_21-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Donec facilis sodales leo sit amet laoreet</div>
-                    <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-            <div class="col news">
-                <div class="img-container">
-                    <img src="../assets/img/post_feat_img_20-320x202.jpg" alt="">
-                </div>
-                <div class="news-article">
-                    <div class="news-title">Proin eu purus sed aru aliquet curabir vens</div>
-                    <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    <div class="news-text">Donec finibus sit amet orci eget ulticies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</div>
-                </div>
-            </div>
-        </div>
+        <CardFeatured />
         <div class="row review mt-4 mb-4 pt-4">
             <div class="col-8">
                 <div class="reviewed-product mt-2">
@@ -90,44 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 d-flex flex-column">
-                <div class="tutorials mb-4">
-                    <h5>Tutorials &amp; Guides</h5>
-                </div>
-                <div class="row pb-2">
-                    <div class="col-6">
-                        <div class="img-container">
-                            <img src="../assets/img/post_feat_img_23-147x118.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-6 news-article">
-                        <div class="news-title">Donec ornare pretium eget scelisque justo</div>
-                        <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    </div>
-                </div>
-                <div class="row pb-2">
-                    <div class="col-6">
-                        <div class="img-container">
-                            <img src="../assets/img/post_feat_img_22-147x118.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-6 news-article">
-                        <div class="news-title">Fusce sollicitudin nunc sed placerat varius</div>
-                        <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    </div>
-                </div>
-                <div class="row pb-2">
-                    <div class="col-6">
-                        <div class="img-container">
-                            <img src="../assets/img/post_feat_img_20-147x118.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-6 news-article">
-                        <div class="news-title">Proin eu purus sed aru aliquet curabir vens</div>
-                        <div class="news-date">October 11th, 2015 | Comments Off</div>
-                    </div>
-                </div>
-            </div>
+            <CardTutorial />
         </div>
     </div>
     <div class="blog text-uppercase text-light text-center">
@@ -171,11 +72,17 @@
 </template>
 
 <script>
-import ForumCards from './ForumCards.vue'
+import ForumCards from './ForumCards.vue';
+import CardNews from './CardNews.vue';
+import CardFeatured from './CardFeatured.vue';
+import CardTutorial from './CardTutorial.vue';
 export default {
     name: "Main",
     components: {
         ForumCards,
+        CardNews,
+        CardFeatured,
+        CardTutorial,
     }
 
 }
